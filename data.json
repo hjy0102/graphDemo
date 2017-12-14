@@ -1,0 +1,53 @@
+{
+	"nodes": [
+		{
+			"id": "1",
+			"title": "Hello World",
+			"body": "this is such a cool graph",
+			"required": true,
+			"meta": {
+				"tags": ["electrochem", "mathematics"],
+				"concept": ["conductors"],
+				"blooms": ["analysis", "comprehension"]
+			}
+		}, 
+		{
+			"id": "2",
+			"title": "Woah",
+			"body": "another node in a graph",
+			"required": true,
+			"meta": {
+				"tags": ["electrochem", "mathematics"],
+				"concept": ["conductors"],
+				"blooms": ["analysis", "comprehension"]
+			}
+		},
+		{
+			"id": "3",
+			"title": "Question",
+			"body": "This is just extra practice",
+			"required": false,
+			"meta": {
+				"tags": ["electrochem", "mathematics"],
+				"concept": ["conductors"],
+				"blooms": ["analysis", "comprehension"]
+			}
+		},
+		{
+			"id": "4",
+			"title": "Question 2",
+			"body": "This is another extra practice",
+			"required": false,
+			"meta": {
+				"tags": ["electrochem", "mathematics"],
+				"concept": ["conductors"],
+				"blooms": ["analysis", "comprehension"]
+			}
+		}
+	],
+	"links": [
+		{"source":1, "target": 2, "weight": 0, "label":""},
+		{"source":2, "target": 3, "weight": 0, "label":""},
+		{"source":3, "target": 4, "weight": 0, "label":""}
+	]
+}
